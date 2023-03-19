@@ -1,0 +1,34 @@
+{
+  "average-time": [
+    {
+      "id": 1,
+      "heading": "My organisation’s workplace(s)",
+      "Question_Type": "continuous"
+    },
+    {
+      "id": 2,
+      "heading": "Serviced offices or co-working spaces",
+      "Question_Type": "continuous"
+    },
+    {
+      "id": 3,
+      "heading": "Other workplaces (e.g. those of clients, partners or suppliers)",
+      "Question_Type": "continuous"
+    },
+    {
+      "id": 4,
+      "heading": "Home",
+      "Question_Type": "continuous"
+    },
+    {
+      "id": 5,
+      "heading": "Working while travelling",
+      "Question_Type": "continuous"
+    },
+    {
+      "id": 6,
+      "heading": "Other location(s)",
+      "Question_Type": "continuous"
+    }
+  ]
+}

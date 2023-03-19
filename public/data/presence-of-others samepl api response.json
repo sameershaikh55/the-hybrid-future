@@ -1,0 +1,48 @@
+{
+  "presence-of-others": [
+    {
+      "id": 1,
+      "heading": "",
+      "question_text": "When you work from home, who is typically present? Select all that apply or 'no one'",
+      "Question_Type": "tick_m",
+      "options": [
+        {
+          "option_id": 1,
+          "option_label": "One or more children or dependents",
+          "position": 0,
+          "optional": false
+        },
+        {
+          "option_id": 2,
+          "option_label": "A partner or other family member(s)",
+          "position": 1,
+          "optional": false
+        },
+        {
+          "option_id": 3,
+          "option_label": "Friend(s) or flatmate(s)",
+          "position": 2,
+          "optional": false
+        },
+        {
+          "option_id": 4,
+          "option_label": "Other person(s)",
+          "position": 3,
+          "optional": false
+        },
+        {
+          "option_id": 5,
+          "option_label": "No one",
+          "position": 4,
+          "optional": false
+        },
+        {
+          "option_id": 6,
+          "option_label": "Prefer not to say",
+          "position": 5,
+          "optional": false
+        }
+      ]
+    }
+  ]
+}

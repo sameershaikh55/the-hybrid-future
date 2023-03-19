@@ -1,0 +1,328 @@
+{
+  "demographics-thf": [
+    {
+      "id": 11089,
+      "heading": "Role",
+      "options": [
+        {
+          "option_id": 6559,
+          "option_label": "Senior leader",
+          "position": 0,
+          "optional": false
+        },
+        {
+          "option_id": 6560,
+          "option_label": "People manager",
+          "position": 1,
+          "optional": false
+        },
+        {
+          "option_id": 6561,
+          "option_label": "Individual contributor",
+          "position": 2,
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": 11090,
+      "heading": "Age group",
+      "options": [
+        {
+          "option_id": 6537,
+          "option_label": "45 - 54",
+          "position": 3,
+          "optional": false
+        },
+        {
+          "option_id": 6536,
+          "option_label": "25 - 34",
+          "position": 1,
+          "optional": false
+        },
+        {
+          "option_id": 6542,
+          "option_label": "35 - 44",
+          "position": 2,
+          "optional": false
+        },
+        {
+          "option_id": 6538,
+          "option_label": "55 - 64",
+          "position": 4,
+          "optional": false
+        },
+        {
+          "option_id": 6535,
+          "option_label": "Under 25",
+          "position": 0,
+          "optional": false
+        },
+        {
+          "option_id": 6541,
+          "option_label": "Prefer not to say",
+          "position": 6,
+          "optional": true
+        },
+        {
+          "option_id": 6539,
+          "option_label": "65 or over",
+          "position": 5,
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": 11091,
+      "heading": "Employment type",
+      "options": [
+        {
+          "option_id": 6547,
+          "option_label": "Full time",
+          "position": 0,
+          "optional": false
+        },
+        {
+          "option_id": 6549,
+          "option_label": "Part time",
+          "position": 1,
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": 11092,
+      "heading": "Gender",
+      "options": [
+        {
+          "option_id": 6546,
+          "option_label": "Agender",
+          "position": 4,
+          "optional": true
+        },
+        {
+          "option_id": 6545,
+          "option_label": "Gender fluid",
+          "position": 3,
+          "optional": true
+        },
+        {
+          "option_id": 6540,
+          "option_label": "Man",
+          "position": 0,
+          "optional": false
+        },
+        {
+          "option_id": 6543,
+          "option_label": "Woman",
+          "position": 1,
+          "optional": false
+        },
+        {
+          "option_id": 6544,
+          "option_label": "Prefer not to say",
+          "position": 5,
+          "optional": true
+        },
+        {
+          "option_id": 6548,
+          "option_label": "Non binary",
+          "position": 2,
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": 11093,
+      "heading": "Time with organisation",
+      "options": [
+        {
+          "option_id": 6550,
+          "option_label": "0 - 6 months",
+          "position": 0,
+          "optional": false
+        },
+        {
+          "option_id": 6554,
+          "option_label": "8 - 12 years",
+          "position": 4,
+          "optional": false
+        },
+        {
+          "option_id": 6555,
+          "option_label": "Over - 12 years",
+          "position": 5,
+          "optional": false
+        },
+        {
+          "option_id": 6553,
+          "option_label": "3 - 8 years",
+          "position": 3,
+          "optional": false
+        },
+        {
+          "option_id": 6552,
+          "option_label": "18 months - 3 years",
+          "position": 2,
+          "optional": false
+        },
+        {
+          "option_id": 6551,
+          "option_label": "6 - 18 months",
+          "position": 1,
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": 11096,
+      "heading": "Do you have a disability* or a long-termhealth condition**, a mental health difficulty, a mobility impairment, a neurodiverse profile or a sensory impairment?",
+      "options": [
+        {
+          "option_id": 6558,
+          "option_label": "Prefer not to say",
+          "position": 2,
+          "optional": false
+        },
+        {
+          "option_id": 6556,
+          "option_label": "Yes",
+          "position": 0,
+          "optional": false
+        },
+        {
+          "option_id": 6557,
+          "option_label": "No",
+          "position": 1,
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": 12511,
+      "heading": "Do you do any of your work in a lab or lab-related environment?",
+      "options": [
+        {
+          "option_id": 7465,
+          "option_label": "Yes",
+          "position": 0,
+          "optional": false
+        },
+        {
+          "option_id": 7464,
+          "option_label": "No",
+          "position": 1,
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": 12511,
+      "heading": "Function",
+      "options": [
+        {
+          "option_id": 6559,
+          "option_label": "Accounting/ Finance",
+          "position": 0,
+          "optional": false
+        },
+        {
+          "option_id": 6560,
+          "option_label": "Administration/ Executive",
+          "position": 1,
+          "optional": false
+        },
+        {
+          "option_id": 6561,
+          "option_label": "Customer Service",
+          "position": 2,
+          "optional": false
+        },
+        {
+          "option_id": 6562,
+          "option_label": "Data / Analytics",
+          "position": 3,
+          "optional": false
+        },
+        {
+          "option_id": 6563,
+          "option_label": "General Management",
+          "position": 4,
+          "optional": false
+        },
+        {
+          "option_id": 6564,
+          "option_label": "Human Resources",
+          "position": 5,
+          "optional": false
+        },
+        {
+          "option_id": 6565,
+          "option_label": "Legal",
+          "position": 6,
+          "optional": false
+        },
+        {
+          "option_id": 6566,
+          "option_label": "Marketing / Communications",
+          "position": 7,
+          "optional": false
+        },
+        {
+          "option_id": 6567,
+          "option_label": "Operations",
+          "position": 8,
+          "optional": false
+        },
+        {
+          "option_id": 6568,
+          "option_label": "Product Management",
+          "position": 9,
+          "optional": false
+        },
+        {
+          "option_id": 6569,
+          "option_label": "Production / Manufacturing",
+          "position": 10,
+          "optional": false
+        },
+        {
+          "option_id": 6570,
+          "option_label": "Purchasing / Sourcing",
+          "position": 11,
+          "optional": false
+        },
+        {
+          "option_id": 6571,
+          "option_label": "Quality Assurance",
+          "position": 12,
+          "optional": false
+        },
+        {
+          "option_id": 6572,
+          "option_label": "Research and Development",
+          "position": 13,
+          "optional": false
+        },
+        {
+          "option_id": 6573,
+          "option_label": "Sales / Business Development",
+          "position": 14,
+          "optional": false
+        },
+        {
+          "option_id": 6574,
+          "option_label": "Technology / Information Technology",
+          "position": 15,
+          "optional": false
+        },
+        {
+          "option_id": 6575,
+          "option_label": "Other",
+          "position": 16,
+          "optional": false
+        }
+      ]
+    }
+  ]
+}

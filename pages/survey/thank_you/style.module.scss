@@ -1,0 +1,77 @@
+@import "../../../styles/variables.scss";
+
+.background {
+  background: $color8;
+  z-index: -1;
+}
+
+.thank_you_container {
+  margin-top: 12rem;
+  max-width: 714px;
+  padding-bottom: 2rem;
+
+  .subtitle {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  button {
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 3px;
+    background: #1e1e1e;
+    color: #fff;
+    min-width: 165px;
+    min-height: 45px;
+    border: none;
+  }
+
+  .thank_you_picture {
+    position: absolute;
+    right: 4rem;
+    top: 35%;
+    transform: translateY(-50%);
+  }
+
+  @media screen and (max-width: 1250px) {
+    .thank_you_picture {
+      right: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    h1 {
+      font-size: 5rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 12rem;
+
+    .title {
+      font-size: 2.8rem;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+    }
+
+    button {
+      min-width: 150px;
+      min-height: 40px;
+    }
+
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+  @media screen and (max-width: 475px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+}

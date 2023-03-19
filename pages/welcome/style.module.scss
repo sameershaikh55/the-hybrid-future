@@ -1,0 +1,80 @@
+@import "../../styles/variables.scss";
+
+.welcome_container {
+    margin-top: 10rem;
+    max-width: 876px;
+    padding-bottom: 2rem;
+
+    .title {
+        font-size: 4rem;
+    }
+
+    .highlight {
+        font-weight: 600;
+        color: $color1;
+    }
+
+    .subtitle {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    button {
+        margin-bottom: 4rem;
+        font-size: 1rem;
+        font-weight: 500;
+        border-radius: 3px;
+        background: #1E1E1E;
+        color: #fff;
+        min-width: 165px;
+        min-height: 45px;
+        border: none;
+    }
+
+    .info {
+        font-weight: 500;
+        border-radius: 3px;
+        margin-bottom: 1rem;
+    }
+
+    .infoTitle {
+        font-weight: 500;
+    }
+
+    .logos {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
+
+    .logo {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        max-width: 80px;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+        margin-top: 12rem;
+
+        .title {
+            font-size: 2.8rem;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+        }
+
+        button {
+            min-width: 150px;
+            min-height: 40px;
+        }
+
+        .logo {
+            max-width: 80px;
+        }
+    }
+}
