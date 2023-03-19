@@ -1,0 +1,69 @@
+@import "../../styles/variables.scss";
+
+.checkbox__wrapper {
+  // Styles
+  .checkbox {
+    font-weight: 300;
+    line-height: 1;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    gap: 1rem;
+
+    &__wrapper {
+      > * {
+        margin-bottom: 1.25rem;
+      }
+    }
+
+    &__input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+
+      &:checked + .checkbox__check .checkbox__svg {
+        path {
+          stroke: #fff;
+          stroke-width: 1.5px;
+          animation: dash 2s ease-out forwards;
+        }
+
+        border: 1px solid $color5;
+        background-color: $color5;
+      }
+    }
+
+    &__svg {
+      overflow: visible;
+      padding: 0.08rem;
+      height: 16px;
+      width: 16px;
+      border-radius: 0.125rem;
+      transform: scale(1.5);
+      border: 1px solid $color2;
+
+      path {
+        stroke: transparent;
+        stroke-dasharray: 100;
+        stroke-dashoffset: 100;
+      }
+    }
+
+    .label {
+      font-size: 0.9rem;
+      color: $color4;
+    }
+  }
+
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+}

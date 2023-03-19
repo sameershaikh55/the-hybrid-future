@@ -1,0 +1,26 @@
+@import "../../styles/variables.scss";
+
+.top_line {
+  margin-top: 5rem;
+  border-top: 2px solid #000;
+}
+
+.bottom_line {
+  border: 1px solid $color2;
+}
+
+.bottom_line_d {
+  border-bottom: 2px solid #000;
+}
+
+@media screen and (max-width: 768px) {
+  .bottom_line {
+    border: none;
+  }
+  .bottom_line_d {
+    display: none;
+  }
+  .title {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,31 @@
+@import "../../styles/variables.scss";
+
+.password_validation {
+  position: absolute;
+  top: 4.5rem;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 420%;
+  min-width: 250px;
+  padding: 1rem;
+  background-color: #fff;
+  z-index: 2;
+  border: 2px solid #bfc3c5;
+  box-shadow: 3px 3px 6px rgba(113, 119, 122, 0.25);
+  border-radius: 5px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0rem;
+    left: 50%;
+    height: 30px;
+    width: 30px;
+    border-top: 2px solid #bfc3c5;
+    border-left: 2px solid #bfc3c5;
+    background: #fff;
+    transform: rotate(45deg) translateX(-80%);
+    border-radius: 5px;
+  }
+}
