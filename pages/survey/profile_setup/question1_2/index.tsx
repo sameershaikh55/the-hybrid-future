@@ -7,7 +7,7 @@ import QuestionWrapper from "../../layouts/options_wrapper";
 import OptionsWrapper from "../../layouts/single_options_wrapper";
 import { useDispatch, useSelector } from "react-redux";
 import { getQuestionOnePointTwo } from "@/store/actions/survey";
-import { RootState, HandleChange } from "./types";
+import { RootState, HandleChange } from "../../../../types/survey/profile_setup/question1_2";
 import Loader from "@/components/Loader";
 import { ThunkDispatch } from "redux-thunk";
 import { Dispatch } from "redux";

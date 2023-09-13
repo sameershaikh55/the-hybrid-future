@@ -2,7 +2,7 @@ import { useState } from "react";
 import Layout from "@/components/Layout/MainLayout";
 import style from "./style.module.scss";
 import Input from "@/components/Input/index";
-import { formData, InputChangeEvent, FormErrors } from "./types";
+import { formData, InputChangeEvent, FormErrors } from "../../types/reset_password";
 import Link from "next/link";
 import { useRouter } from "next/router";
 

@@ -7,7 +7,7 @@ import QuestionWrapper from "../../layouts/options_wrapper";
 import OptionsWrapper from "../../layouts/single_options_wrapper";
 import { useDispatch, useSelector } from "react-redux";
 import { getQuestionSix } from "@/store/actions/survey";
-import { RootState, QuestionSixOption } from "./types";
+import { RootState, QuestionSixOption } from "../../../../types/survey/profile_setup/question7";
 import Loader from "@/components/Loader";
 import { ThunkDispatch } from "redux-thunk";
 import { Dispatch } from "redux";

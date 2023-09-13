@@ -11,7 +11,7 @@ import { ThunkDispatch } from "redux-thunk";
 import { Dispatch } from "redux";
 import { getQuestionThree } from "@/store/actions/survey";
 import { SurveyAction, SurveyState } from "@/store/reducers/survey/types";
-import { HandleChange, RootState } from "./types";
+import { HandleChange, RootState } from "../../../../types/survey/profile_setup/question3";
 import { onboarding } from "@/constants/routes";
 
 const ProfileSetupQ3 = () => {

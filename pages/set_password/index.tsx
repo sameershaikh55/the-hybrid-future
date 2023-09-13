@@ -2,7 +2,7 @@ import { useState } from "react";
 import Layout from "@/components/Layout/MainLayout";
 import Input from "@/components/Input/index";
 import style from "./style.module.scss";
-import { formData, InputChangeEvent, FormErrors } from "./types";
+import { formData, InputChangeEvent, FormErrors } from "../../types/set_password";
 
 const SetPassword: React.FC = () => {
   const [errors, setErrors] = useState<FormErrors>({

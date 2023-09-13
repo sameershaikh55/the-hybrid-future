@@ -10,7 +10,7 @@ import { ThunkDispatch } from "redux-thunk";
 import { SurveyAction, SurveyState } from "@/store/reducers/survey/types";
 import { Dispatch } from "redux";
 import { getQuestionFour } from "@/store/actions/survey";
-import { HandleChange, RootState } from "./types";
+import { HandleChange, RootState } from "../../../../types/survey/profile_setup/question4_a";
 import Loader from "@/components/Loader";
 import { onboarding } from "@/constants/routes";
 

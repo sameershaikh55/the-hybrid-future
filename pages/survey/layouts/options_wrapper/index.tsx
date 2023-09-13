@@ -1,6 +1,6 @@
 import QuestionHead from "@/components/QuestionHead";
 import style from "./style.module.scss";
-import { Props } from "./types";
+import { Props } from "../../../../types/survey/layouts/options_wrapper";
 
 const OptionsWrapper: React.FC<Props> = ({
   children,
