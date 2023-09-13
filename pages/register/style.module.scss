@@ -1,0 +1,108 @@
+@import "../../styles/variables.scss";
+
+.register_container {
+  margin-top: 10rem;
+  max-width: 876px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: calc(100vh - 200px);
+
+  .inner_register_container {
+    max-width: 562px;
+
+    .title {
+      font-size: 3rem;
+      font-weight: 300;
+    }
+
+    .inputs {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .checkbox_container {
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        font-size: 0.9rem;
+      }
+    }
+
+    button[type="submit"] {
+      margin-bottom: 2rem;
+      font-size: 1rem;
+      font-weight: 500;
+      border-radius: 3px;
+      color: #fff;
+      min-width: 165px;
+      min-height: 45px;
+      border: none;
+      background: $color6;
+      transition: 0.3s;
+
+      &:disabled {
+        background: $color3;
+      }
+
+      &:not([disabled]):hover {
+        background: #0000009a;
+      }
+    }
+  }
+
+  .loginLINK {
+    button {
+      transition: 0.3s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .terms_conditions {
+    color: $color4;
+    font-size: 0.8rem;
+    line-height: 17px;
+
+    strong {
+      color: $color4;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 11rem;
+
+    .inner_register_container {
+      button[type="submit"] {
+        min-width: 252px;
+        min-height: 40px;
+      }
+    }
+  }
+}
+
+.authBG {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 1300px) {
+  .authBG {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .authBG {
+    display: none;
+  }
+}

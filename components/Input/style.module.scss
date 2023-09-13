@@ -1,0 +1,52 @@
+@import "../../styles/variables.scss";
+
+.input_field {
+  position: relative;
+  width: 100%;
+
+  input {
+    font-size: 0.875rem;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border-radius: 3px;
+    border: 2px solid $color2;
+    height: 45px;
+    color: #000;
+    font-weight: 600;
+    transition: 0.3s;
+
+    &.errorField {
+      border: 2px solid $color7;
+    }
+
+    &::placeholder {
+      color: $color3;
+    }
+
+    &:hover {
+      border: 2px solid #000;
+    }
+  }
+
+  .icon,
+  .errorIcon {
+    right: 0.8rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+
+  .errorIcon {
+    top: 38%;
+  }
+
+  .error {
+    color: $color7;
+  }
+
+  &.errorField {
+    input {
+      border: 2px solid $color7;
+    }
+  }
+}

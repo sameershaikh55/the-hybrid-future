@@ -1,0 +1,123 @@
+@import "../../styles/variables.scss";
+
+.background {
+  // background: $color1;
+  z-index: -1;
+}
+
+.thank_you_container {
+  margin-top: 12rem;
+  max-width: 714px;
+  padding-bottom: 2rem;
+
+  .subtitle {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  button {
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 3px;
+    background: $color1;
+    color: #000;
+    min-width: 165px;
+    min-height: 45px;
+    border: none;
+    font-weight: 600;
+  }
+
+  @media screen and (min-width: 1400px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media screen and (max-width: 992px) {
+    h1 {
+      font-size: 5rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 12rem;
+
+    .title {
+      font-size: 2.8rem;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+    }
+
+    button {
+      min-width: 150px;
+      min-height: 40px;
+    }
+
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+  @media screen and (max-width: 475px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+}
+
+.thankyouBg {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  max-width: 500px;
+}
+
+.tagline {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  padding: 0px 18px;
+}
+
+
+.logo {
+  max-width: 180px;
+  width: 100%;
+
+  &:nth-child(1) {
+    max-width: 160px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 0rem 1rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .thankyouBg {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .thankyouBg {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .thankyouBg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tagline {
+    position: static;
+  }
+}

@@ -1,0 +1,121 @@
+@import "../../../styles/variables.scss";
+
+.start_survey_container {
+  margin-top: 12rem;
+  max-width: 714px;
+  padding-bottom: 2rem;
+
+  .title {
+    span {
+      color: $color1;
+    }
+  }
+
+  .subtitle {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-weight: 300;
+  }
+
+  button {
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 3px;
+    background: $color1;
+    color: #000;
+    min-width: 165px;
+    min-height: 45px;
+    border: none;
+    font-weight: 600;
+    transition: 0.3s;
+
+    &:not([disabled]):hover {
+      background: #c3c3c3a4;
+    }
+  }
+
+  .thank_you_picture {
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  @media screen and (min-width: 1400px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media screen and (max-width: 1250px) {
+    .thank_you_picture {
+      right: 0%;
+      max-width: 400px;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    .thank_you_picture {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    h1 {
+      font-size: 5rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 12rem;
+
+    .title {
+      font-size: 2.8rem;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+    }
+
+    button {
+      min-width: 245px;
+      min-height: 40px;
+    }
+
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+  @media screen and (max-width: 475px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+}
+
+.tagline {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+}
+
+
+.logo {
+  max-width: 180px;
+  width: 100%;
+
+  &:nth-child(1) {
+    max-width: 160px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 0rem 1rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .tagline {
+    position: static;
+  }
+}

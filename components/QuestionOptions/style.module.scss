@@ -1,0 +1,29 @@
+@import "../../styles/variables.scss";
+
+.searchInput {
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.top_line {
+  margin-top: 5rem;
+  border-top: 2px solid #000;
+}
+
+.bottom_line {
+  border: 1px solid $color2;
+}
+
+.bottom_line_d {
+  border-bottom: 2px solid #000;
+}
+
+@media screen and (max-width: 768px) {
+  .top_line {
+    margin-top: 0px;
+    border-top: none;
+  }
+}

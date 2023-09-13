@@ -1,0 +1,96 @@
+{
+  "office-work-setting": [
+    {
+      "id": 1,
+      "heading": "Is it permanently assigned to you?",
+      "Question_Type": "Radio",
+      "options": [
+        {
+          "option_id": 1,
+          "option_label": "Yes",
+          "position": 0,
+          "optional": false
+        },
+        {
+          "option_id": 2,
+          "option_label": "No, but I book it in advance",
+          "position": 1,
+          "optional": false
+        },
+        {
+          "option_id": 3,
+          "option_label": "No, I use it when it’s unoccupied (without booking)",
+          "position": 2,
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "heading": "What type of setting is it?",
+      "Question_Type": "Radio",
+      "options": [
+        {
+          "option_id": 4,
+          "option_label": "Workstation in open-plan office area",
+          "position": 0,
+          "optional": false
+        },
+        {
+          "option_id": 5,
+          "option_label": "Cubicle or partially enclosed workstation",
+          "position": 1,
+          "optional": false
+        },
+        {
+          "option_id": 6,
+          "option_label": "Workstation in shared room",
+          "position": 2,
+          "optional": false
+        },
+        {
+          "option_id": 7,
+          "option_label": "Shared team table",
+          "position": 3,
+          "optional": false
+        },
+        {
+          "option_id": 8,
+          "option_label": "Quiet room",
+          "position": 4,
+          "optional": false
+        },
+        {
+          "option_id": 9,
+          "option_label": "Private office",
+          "position": 5,
+          "optional": false
+        },
+        {
+          "option_id": 10,
+          "option_label": "Meeting room",
+          "position": 6,
+          "optional": false
+        },
+        {
+          "option_id": 11,
+          "option_label": "Informal work setting (e.g. break-out area)",
+          "position": 7,
+          "optional": false
+        },
+        {
+          "option_id": 12,
+          "option_label": "Specialist, practical or technical setting",
+          "position": 8,
+          "optional": false
+        },
+        {
+          "option_id": 13,
+          "option_label": "Other",
+          "position": 9,
+          "optional": false
+        }
+      ]
+    }
+  ]
+}

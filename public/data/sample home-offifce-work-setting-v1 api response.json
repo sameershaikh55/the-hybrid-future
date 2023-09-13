@@ -1,0 +1,64 @@
+{
+  "home-work-setting": [
+    {
+      "id": 1,
+      "heading": "What type of work setting do you typically use when working from home?",
+      "options": [
+        {
+          "option_id": 1,
+          "option_label": "A dedicated work room or office",
+          "position": 0,
+          "optional": false
+        },
+        {
+          "option_id": 2,
+          "option_label": "A dedicated work area (but not a separate room)",
+          "position": 1,
+          "optional": false
+        },
+        {
+          "option_id": 3,
+          "option_label": "A setting not typically intended for work (e.g. dining table)",
+          "position": 2,
+          "optional": false
+        },
+        {
+          "option_id": 4,
+          "option_label": "Other",
+          "position": 3,
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "heading": "If you were to work from home, what type of work setting would you typically use?",
+      "options": [
+        {
+          "option_id": 5,
+          "option_label": "A dedicated work room or office",
+          "position": 0,
+          "optional": false
+        },
+        {
+          "option_id": 6,
+          "option_label": "A dedicated work area (but not a separate room)",
+          "position": 1,
+          "optional": false
+        },
+        {
+          "option_id": 7,
+          "option_label": "A setting not typically intended for work (e.g. dining table)",
+          "position": 2,
+          "optional": false
+        },
+        {
+          "option_id": 8,
+          "option_label": "Other",
+          "position": 3,
+          "optional": false
+        }
+      ]
+    }
+  ]
+}

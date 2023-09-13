@@ -1,0 +1,271 @@
+@import "./variables.scss";
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("/font/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: #1e1e1e;
+}
+
+.f8 {
+  font-size: 0.5rem;
+}
+
+.f10 {
+  font-size: 0.625rem;
+}
+
+.f12 {
+  font-size: 0.75rem;
+}
+
+.f14 {
+  font-size: 0.875rem;
+}
+
+.f15 {
+  font-size: 0.938rem;
+}
+
+.f16 {
+  font-size: 1rem;
+}
+
+.f18 {
+  font-size: 1.125rem;
+}
+
+.f20 {
+  font-size: 1.25rem;
+}
+
+.f22 {
+  font-size: 1.375rem;
+}
+
+.f24 {
+  font-size: 1.5rem;
+}
+
+.f26 {
+  font-size: 1.625rem;
+}
+
+.f28 {
+  font-size: 1.75rem;
+}
+
+.f30 {
+  font-size: 1.875rem;
+}
+
+.f32 {
+  font-size: 2rem;
+}
+
+.f34 {
+  font-size: 2.125rem;
+}
+
+.f36 {
+  font-size: 2.25rem;
+}
+
+.f38 {
+  font-size: 2.375rem;
+}
+
+.f40 {
+  font-size: 2.5rem;
+}
+
+.f42 {
+  font-size: 2.625rem;
+}
+
+.f44 {
+  font-size: 2.75rem;
+}
+
+.f46 {
+  font-size: 2.875rem;
+}
+
+.f48 {
+  font-size: 3rem;
+}
+
+.f50 {
+  font-size: 3.125rem;
+}
+
+.f52 {
+  font-size: 3.25rem;
+}
+
+.f54 {
+  font-size: 3.375rem;
+}
+
+.f56 {
+  font-size: 3.5rem;
+}
+
+.f58 {
+  font-size: 3.625rem;
+}
+
+.f60 {
+  font-size: 3.75rem;
+}
+
+.f62 {
+  font-size: 3.875rem;
+}
+
+.f64 {
+  font-size: 4rem;
+}
+
+.f64 {
+  font-size: 4rem;
+}
+
+.f66 {
+  font-size: 4.125rem;
+}
+
+.f68 {
+  font-size: 4.25rem;
+}
+
+.f70 {
+  font-size: 4.375rem;
+}
+
+.f72 {
+  font-size: 4.5rem;
+}
+
+.f74 {
+  font-size: 4.625rem;
+}
+
+.f76 {
+  font-size: 4.75rem;
+}
+
+.f78 {
+  font-size: 4.875rem;
+}
+
+.f80 {
+  font-size: 5rem;
+}
+
+.f82 {
+  font-size: 5.125rem;
+}
+
+.f84 {
+  font-size: 5.25rem;
+}
+
+.f86 {
+  font-size: 5.375rem;
+}
+
+.f88 {
+  font-size: 5.5rem;
+}
+
+.f90 {
+  font-size: 5.625rem;
+}
+
+.f92 {
+  font-size: 5.75rem;
+}
+
+.f94 {
+  font-size: 5.875rem;
+}
+
+.f96 {
+  font-size: 6rem;
+}
+
+.f98 {
+  font-size: 6.125rem;
+}
+
+.f100 {
+  font-size: 6.25rem;
+}
+
+// FONT WEIGHT
+.fw100 {
+  font-weight: 100;
+}
+
+.fw200 {
+  font-weight: 200;
+}
+
+.fw300 {
+  font-weight: 300;
+}
+
+.fw400 {
+  font-weight: 400;
+}
+
+.fw500 {
+  font-weight: 500;
+}
+
+.fw600 {
+  font-weight: 600;
+}
+
+.fw700 {
+  font-weight: 700;
+}
+
+.fw800 {
+  font-weight: 800;
+}
+
+.fw900 {
+  font-weight: 900;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.btn-scale {
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+// MEDIA START
+@media screen and (max-width: 1100px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+// MEDIA END

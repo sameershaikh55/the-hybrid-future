@@ -1,0 +1,38 @@
+@import "../../styles/variables.scss";
+
+.top_line {
+  margin-top: 5rem;
+  border-top: 2px solid #000;
+}
+
+.bottom_line {
+  border: 1px solid $color2;
+}
+
+.bottom_line_d {
+  border-bottom: 2px solid #000;
+}
+
+.radio {
+  appearance: none; /* Remove default radio appearance */
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; /* Make it round */
+  border: 2px solid black; /* Add a black border */
+  outline: none; /* Remove focus outline */
+  position: absolute;
+  cursor: pointer;
+}
+
+/* Style the radio input when it's checked */
+.radio:checked {
+  border: 2px solid $color5; /* Add a black border */
+  background-color: $color5;
+}
+
+@media screen and (max-width: 768px) {
+  .radio {
+    width: 22px;
+    height: 22px;
+  }
+}

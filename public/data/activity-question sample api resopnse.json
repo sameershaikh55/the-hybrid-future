@@ -1,0 +1,125 @@
+{
+  "activity-question-1": [
+    {
+      "id": 1,
+      "heading": "Which of the following activities are important to your role at your organisation (Organisation name)?",
+      "Question_Type": "tick",
+      "options": [
+        {
+          "option_id": 1,
+          "option_label": "Individual focused work (desk based)",
+          "position": 0,
+          "optional": false
+        },
+        {
+          "option_id": 2,
+          "option_label": "Individual focused work (not desk based)",
+          "position": 1,
+          "optional": false
+        },
+        {
+          "option_id": 3,
+          "option_label": "Individual routine tasks",
+          "position": 2,
+          "optional": false
+        },
+        {
+          "option_id": 4,
+          "option_label": "Reading",
+          "position": 3,
+          "optional": false
+        },
+        {
+          "option_id": 5,
+          "option_label": "Collaborating on focused work",
+          "position": 4,
+          "optional": false
+        },
+        {
+          "option_id": 6,
+          "option_label": "Collaborating on creative work",
+          "position": 5,
+          "optional": false
+        },
+        {
+          "option_id": 7,
+          "option_label": "Informal, unplanned meetings",
+          "position": 6,
+          "optional": false
+        },
+        {
+          "option_id": 8,
+          "option_label": "Planned meetings",
+          "position": 7,
+          "optional": false
+        },
+        {
+          "option_id": 9,
+          "option_label": "Informal social interaction",
+          "position": 8,
+          "optional": false
+        },
+        {
+          "option_id": 10,
+          "option_label": "Business confidential discussions",
+          "position": 9,
+          "optional": false
+        },
+        {
+          "option_id": 11,
+          "option_label": "Private conversations",
+          "position": 10,
+          "optional": false
+        },
+        {
+          "option_id": 12,
+          "option_label": "Telephone conversations",
+          "position": 11,
+          "optional": false
+        },
+        {
+          "option_id": 13,
+          "option_label": "Audio calls or conferences",
+          "position": 12,
+          "optional": false
+        },
+        {
+          "option_id": 14,
+          "option_label": "Using papers or materials",
+          "position": 13,
+          "optional": false
+        },
+        {
+          "option_id": 15,
+          "option_label": "Using technical/specialist equipment or materials",
+          "position": 14,
+          "optional": false
+        },
+        {
+          "option_id": 16,
+          "option_label": "Relaxing or taking a break",
+          "position": 15,
+          "optional": false
+        },
+        {
+          "option_id": 17,
+          "option_label": "Large group meetings or events",
+          "position": 16,
+          "optional": false
+        },
+        {
+          "option_id": 18,
+          "option_label": "Hosting visitors, clients or customers",
+          "position": 17,
+          "optional": false
+        },
+        {
+          "option_id": 19,
+          "option_label": "Video calls or conferences",
+          "position": 18,
+          "optional": false
+        }
+      ]
+    }
+  ]
+}
